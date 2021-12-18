@@ -11,7 +11,7 @@ public class JsonParserGson implements JsonParser {
 
     @Override
     public String parseToJsonAndWriteInFile(People... o) {
-        String str = gson.toJson(o);
+        String str ="export const members=" + gson.toJson(o);
         fileRepository.writeInFile(str);
         return str;
     }

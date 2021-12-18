@@ -56,19 +56,15 @@ public class People {
     }
 
     public String getImagePath() {
+
         return imagePath;
     }
 
-//    public void setImagePath(String imagePath) {
-//        if (imagePath == null || imagePath.equals("")) {
-//            this.imagePath = "notDefined";
-//        } else {
-//            this.imagePath = imagePath;
-//        }
-//    }
+
+
 public void setImagePath(String imagePath) {
     if (imagePath == null || imagePath.equals("") || imagePath.equals("notDefined")) {
-        this.imagePath = "notDefined";
+        this.imagePath = "./img/person-icon.jpg";
     } else {
         this.imagePath = imagePath + getFirstName() + getLastName() + ".jpg";
     }
@@ -185,5 +181,3 @@ public void setImagePath(String imagePath) {
                 '}';
     }
 }
-//    String str ="export const members = " + gson.toJson(o);
-///Aya/Relq/Briefs/BriefTwo/Scripts.js

@@ -2,7 +2,6 @@ package com.company.controller;
 
 import com.company.commons.constants.FileConstants;
 import com.company.model.People;
-import com.company.repository.FileRepository;
 import com.company.service.JsonParser;
 import com.company.service.impl.JsonParserGson;
 
@@ -11,9 +10,6 @@ import java.util.List;
 
 public class PeopleController {
     List<People> peopleList = new LinkedList<>();
-
-//    
-
 
     public void generateData() {
         People people = new People(
@@ -29,7 +25,7 @@ public class PeopleController {
 
         people = new People(
                 "Alexandr",
-                "Hamabrdzumyan",
+                "Hambardzumyan",
                 "+374 98 156 247",
                 "kar31100@gmail.com",
                 "YSU",
@@ -84,7 +80,8 @@ public class PeopleController {
                 "annhayriyan@gmail.com",
                 "ASUE",
                 "Scott logistics",
-                "RELQ", FileConstants.IMAGE_RESOURCE_PATH);
+                "RELQ",
+                "");
         peopleList.add(people);
 
         people=new People(
@@ -117,7 +114,8 @@ public class PeopleController {
                 "-----",
                 "-----",
                 "-----",
-                "Relq",FileConstants.IMAGE_RESOURCE_PATH);
+                "Relq",
+                "");
         peopleList.add(people);
 
         people=new People(
@@ -127,7 +125,8 @@ public class PeopleController {
                 "-----",
                 "-----",
                 "-----",
-                "Relq",FileConstants.IMAGE_RESOURCE_PATH);
+                "Relq",
+                "");
         peopleList.add(people);
 
         people=new People(
@@ -147,7 +146,8 @@ public class PeopleController {
                 "-----",
                 "-----",
                 "-----",
-                "Relq",FileConstants.IMAGE_RESOURCE_PATH);
+                "Relq",
+                "");
         peopleList.add(people);
 
         people=new People(
@@ -167,7 +167,8 @@ public class PeopleController {
                 "dashyanlian@gmail.com",
                 "YSU",
                 "GYU NGO",
-                "Relq",FileConstants.IMAGE_RESOURCE_PATH);
+                "Relq",
+                "");
         peopleList.add(people);
 
         people=new People(
@@ -226,7 +227,8 @@ public class PeopleController {
                 "stepanyansevak9@gamil.com",
                 "Economics and Menegment",
                 "-----",
-                "Relq School",FileConstants.IMAGE_RESOURCE_PATH);
+                "Relq School",
+                "");
         peopleList.add(people);
 
         people=new People(
@@ -236,7 +238,8 @@ public class PeopleController {
                 "-----",
                 "-----",
                 "-----",
-                "Relq School",FileConstants.IMAGE_RESOURCE_PATH);
+                "Relq School",
+                "");
         peopleList.add(people);
 
         people=new People(
@@ -246,7 +249,8 @@ public class PeopleController {
                 "-----",
                 "-----",
                 "-----",
-                "Relq School",FileConstants.IMAGE_RESOURCE_PATH);
+                "Relq School",
+                "");
         peopleList.add(people);
 
         people=new People(
@@ -259,29 +263,12 @@ public class PeopleController {
                 "Relq School",FileConstants.IMAGE_RESOURCE_PATH);
         peopleList.add(people);
 
-
-
            }
 
     public void writeInFileWithJson() {
         JsonParser jp = new JsonParserGson();
         jp.parseToJsonAndWriteInFile(peopleList.toArray(new People[0]));
-
         System.out.println("everything is OKAY");
 
     }
-
-
-
-    private void readFromFileAsJason() {
-        // read json data from the file
-        //json to people list, parse with our just writed service class, with some changes
-    }
-
-    private List<People> readFromFileAsObjectList() {
-        // read json data from the file
-        //json to people list, parse with our just writed service class, with some changes
-        return null;
-    }
-
 }
