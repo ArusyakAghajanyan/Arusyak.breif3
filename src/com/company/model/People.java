@@ -51,9 +51,7 @@ public class People {
         setImagePath(imagePath);
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
+    private void setId(String id) { this.id = UIDGenerator.getUID;    }
 
     public String getImagePath() {
 

@@ -3,6 +3,7 @@ package com.company.commons;
 import java.security.SecureRandom;
 
 public class UIDGenerator {
+    public static String getUID;
     private static volatile SecureRandom numberGenerator = null;
     private static final long MSB = 0x8000000000000000L;
 

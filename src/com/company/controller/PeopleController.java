@@ -66,10 +66,10 @@ public class PeopleController {
         people = new People(
                 "Ani",
                 "Antonyan",
-                "-----",
-                "-----",
-                "-----",
-                "-----",
+                "",
+                "notDefined",
+                "notDefined",
+                "notDefined",
                 "RELQ", FileConstants.IMAGE_RESOURCE_PATH);
         peopleList.add(people);
 
@@ -110,10 +110,10 @@ public class PeopleController {
         people=new People(
                 "Afina",
                 "Panyan",
-                "-----",
-                "-----",
-                "-----",
-                "-----",
+                "notDefined",
+                "notDefined",
+                "notDefined",
+                "notDefined",
                 "Relq",
                 "");
         peopleList.add(people);
@@ -122,9 +122,9 @@ public class PeopleController {
                 "Babken",
                 "Tadevosyan",
                 "+374 93 28 55 95",
-                "-----",
-                "-----",
-                "-----",
+                "notDefined",
+                "notDefined",
+                "notDefined",
                 "Relq",
                 "");
         peopleList.add(people);
@@ -132,20 +132,20 @@ public class PeopleController {
         people=new People(
                 "Hermine",
                 "Melkumyan",
-                "-----",
-                "-----",
-                "-----",
-                "-----",
+                "notDefined",
+                "notDefined",
+                "notDefined",
+                "notDefined",
                 "Relq",FileConstants.IMAGE_RESOURCE_PATH);
         peopleList.add(people);
 
         people=new People(
                 "Hermine",
                 "Sahakyan",
-                "-----",
-                "-----",
-                "-----",
-                "-----",
+                "notDefined",
+                "notDefined",
+                "notDefined",
+                "notDefined",
                 "Relq",
                 "");
         peopleList.add(people);
@@ -177,7 +177,7 @@ public class PeopleController {
                 "+374 93 32 29 02",
                 "plusine99@gmail.com",
                 "Armenian State University faculty of Radiophysics",
-                "-----",
+                "notDefined",
                 "Relq", FileConstants.IMAGE_RESOURCE_PATH);
         peopleList.add(people);
         people=new People(
@@ -204,7 +204,7 @@ public class PeopleController {
                 "+374 98 31 38 71",
                 "shahnazaryan.seda@mail.ru",
                 "Higher Education:Historian",
-                "-----",
+                "notDefined",
                 "TechBoost4Women," +
                         "RELQ technology school",
                 FileConstants.IMAGE_RESOURCE_PATH);
@@ -216,7 +216,7 @@ public class PeopleController {
                 "+374 94 24 68 80",
                 "seryozha.asatryan02@gmail.com",
                 "Economics",
-                "-----",
+                "notDefined",
                 "Relq School",FileConstants.IMAGE_RESOURCE_PATH);
         peopleList.add(people);
 
@@ -226,7 +226,7 @@ public class PeopleController {
                 "+374 77 12 16 96",
                 "stepanyansevak9@gamil.com",
                 "Economics and Menegment",
-                "-----",
+                "notDefined",
                 "Relq School",
                 "");
         peopleList.add(people);
@@ -234,10 +234,10 @@ public class PeopleController {
         people=new People(
                 "Silva",
                 "Ohanyan",
-                "-----",
-                "-----",
-                "-----",
-                "-----",
+                "notDefined",
+                "notDefined",
+                "notDefined",
+                "notDefined",
                 "Relq School",
                 "");
         peopleList.add(people);
@@ -245,10 +245,10 @@ public class PeopleController {
         people=new People(
                 "Suren",
                 "Galstyan",
-                "-----",
-                "-----",
-                "-----",
-                "-----",
+                "notDefined",
+                "notDefined",
+                "notDefined",
+                "notDefined",
                 "Relq School",
                 "");
         peopleList.add(people);
@@ -258,8 +258,8 @@ public class PeopleController {
                 "Martirosyan",
                 "+374 77 15 18 68",
                 "martirosyant01@mail.ru",
-                "-----",
-                "-----",
+                "notDefined",
+                "notDefined",
                 "Relq School",FileConstants.IMAGE_RESOURCE_PATH);
         peopleList.add(people);
 
